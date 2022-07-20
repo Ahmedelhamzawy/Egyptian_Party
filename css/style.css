@@ -1,0 +1,184 @@
+/* *{
+    scroll-behavior: smooth;
+} */
+body{
+    overflow: hidden;
+}
+#loading{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgb(123, 0, 0);
+  z-index: 999999999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+#home{
+    background-image: url('../64bf99f576bcbca08e28db9f3f72718f.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.bg-on{
+    background-color: rgba(123, 0, 0, 0.4);
+}
+.bg-on h1{
+font-size: 3rem;
+}
+.pos{
+    position: absolute;
+    /* margin-left: 250px;
+    padding: 16px; */
+}
+.sideBar{
+    background-color: rgb(25%, 27%, 35%);
+    position: fixed;
+    z-index: 999999999;
+    width: 250px;
+    left:-250px;
+}
+.sideBar a,i {
+transition: all 500ms;
+}
+.sideBar a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.closebtn{
+    position: absolute;
+    right: 20px;
+    top: 40px;
+    
+}
+.sideBar li a:hover{
+    color: rgb(49%, 24%, 29%) !important;
+}
+.sideBar ul{
+    margin-top: 100px;
+}
+.sideBar li{
+    padding-left: 15px;
+    padding-bottom: 30px;
+}
+
+.fa-2x:hover{
+    color: rgb(49%, 24%, 29%) !important;
+}
+.closeIcon{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+}
+.openBtn{
+    position: absolute;
+    color: white;
+    bottom: 275px;
+    left: 10px;
+}
+#singers{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding: 50px 0px;
+}
+#singers h3{
+background-color: rgb(51%, 11%, 12%);
+color: white;
+padding: 10px 0px;
+margin: 0;
+cursor: pointer;
+}
+#singers div{
+    /* background-color:rgb(90%, 51%, 52%) ;  */
+    background-image: url('../unnamed.jpg');
+    padding: 15px;
+    color: white;
+    display: none;
+}
+.days, .hours, .minutes, .seconds{
+    text-align: center;
+    border: 1px solid white;
+    padding: 20px 10px;
+}
+#timer{
+    background-image: url('../depositphotos_174286572-stock-photo-dj-booth-at-night-club.jpg');
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+.bg-on2 {
+    background-color: rgba(50%, 11%, 12%,0.8);
+}
+/**************copied**************/
+
+.contact-form h2::before{
+    content: '';
+    position: absolute;
+    height: 3px;
+    background-color: rgba(50%, 11%, 12%,0.8);
+    width: 100px;
+    top: 50px;
+    
+}
+.contact-form p{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.con{
+    padding: 100px 120px;
+}
+.contact-form i{
+    color: rgba(50%, 11%, 12%,0.8);
+}
+.contact-form  .icons-style{
+    border: 5px solid rgba(50%, 11%, 12%,0.8) ;
+    padding: 10px;
+    transition: all 500ms;
+    color: black;
+}
+.contact-form  .icons-style:hover{
+    background-color: rgba(50%, 11%, 12%,0.8);
+    color: white;
+    border-color: rgb(90%, 51%, 52%);
+}
+.footer
+{
+    color: white;
+    background-color: rgba(50%, 11%, 12%,0.8);
+   text-align: center;
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    
+}
+.fa-mobile-alt{
+    margin-left: 2px;
+}
+.form-control:focus{
+border-color: rgb(90%, 51%, 52%);
+box-shadow: none !important;
+}
+#charac-count{
+    color: rgb(90%, 51%, 52%);
+    font-size: 25px;
+    
+}
+@media screen and (max-width: 609px) {
+    .contact-form h2::before{
+        top: 110px;
+    }
+  }
